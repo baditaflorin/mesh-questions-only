@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import {
+  MeshNameInput,
   MeshToasts,
   pushToast,
   useEventLog,
@@ -98,13 +99,12 @@ function Body({ room, config }: { room: YRoom; config: MeshConfig }) {
           {validCount} valid · {log.size} total
         </p>
       </header>
-      <input
+      <MeshNameInput
         className="qonly-name"
         value={name}
-        onChange={(e) => setName(e.target.value)}
+        onChange={setName}
         placeholder="your name"
         maxLength={48}
-        aria-label="your name"
       />
       <div className="qonly-chat" role="log">
         {log.events.map((m) => (
