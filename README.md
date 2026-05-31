@@ -1,7 +1,7 @@
 # mesh-questions-only
 
 [![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-questions-only-6dd4ff)](https://baditaflorin.github.io/mesh-questions-only/)
-[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/baditaflorin/mesh-questions-only/blob/main/package.json)
+[![version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/baditaflorin/mesh-questions-only/blob/main/package.json)
 [![license](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 > Conversation chain where every message must end with a question mark.
